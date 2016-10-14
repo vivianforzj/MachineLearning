@@ -1,1 +1,10 @@
-¼ÇÂ¼¶Á¡¶Predictive Analytics - The power to Predict who will click, buy, lie or die¡·
+
+## Book
+
+Predictive Analytics: The Power to Predict Who Will Click, Buy, Lie, or Die
+
+## Recordings
+
+- 
+
+(Add more)

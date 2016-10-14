@@ -1,6 +1,6 @@
-对于机器学习，一直处于知道几个流行算法的“名字”的阶段。现在因为工作需要，终于下定决心入坑了。主要追随一大牛的网站（http://MachineLearningMastery.com）。自己偶尔也要做点小笔记。
+对于机器学习，一直处于知道几个流行算法的“名字”的阶段。现在因为工作需要，终于下定决心入坑了。主要追随一大牛的网站，http://MachineLearningMastery.com 。
 
-大牛做了如下推荐：
+大牛做了如下推荐：（下面每个类别的书，选一本读就可以了）
 
 ## Books
 
@@ -62,7 +62,7 @@
 
 - [Machine Learning](https://www.quora.com/topic/Machine-Learning)
 
-- [Statistics](https://www.quora.com/topic/Statistics-academic-discipline]
+- [Statistics](https://www.quora.com/topic/Statistics-academic-discipline)
 
 - [Data Mining](https://www.quora.com/topic/Data-Mining)
 
@@ -76,8 +76,8 @@ WEKA，有界面，也有JAVA API。学习见http://www.cs.waikato.ac.nz/ml/weka/ 。
 
 ### 中级用户
 
-Python scikit-learn，基于SciPy(NumPy, Matplotlib and Pandas). 详见http://scikit-learn.org/stable/。
+Python scikit-learn，基于SciPy(NumPy, Matplotlib and Pandas)。详见http://scikit-learn.org/stable/ 。
 
 ### 高级用户
 
-R，基于caret包。详见http://caret.r-forge.r-project.org/。
+R，基于caret包。详见http://caret.r-forge.r-project.org/ 。
