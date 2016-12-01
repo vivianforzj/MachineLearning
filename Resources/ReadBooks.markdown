@@ -4,6 +4,8 @@
 
 ### To Read
 
+《The Elements of Statistical Learning》
+
 ### Half Finished
 
 1.《Predictive Analytics - The power to Predict Who Will Click, Buy, Lie or Die》:单词量太小，真心读着累

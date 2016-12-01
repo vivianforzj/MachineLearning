@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85112f45-bc1c-468d-b388-d34e3d7c070f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter10/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter10/data_split.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter2/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter2/chapter2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter3/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter3/bar_charts.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter3/do_plot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/k_nearest_neighbours.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/n_dimensionality.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/util/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_science_from_scratch/util/distance.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Books/Data Science from Scratch/README.markdown" afterPath="$PROJECT_DIR$/../../Books/Data Science from Scratch/README.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Resources/ReadBooks.markdown" afterPath="$PROJECT_DIR$/../../Resources/ReadBooks.markdown" />
     </list>
     <ignored path="MiniCourseOnPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,8 +21,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Startup$n_dimensionality.coverage" NAME="n_dimensionality Coverage Results" MODIFIED="1480583023243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors" />
     <SUITE FILE_PATH="coverage/MiniCourseOnPython$chapter3.coverage" NAME="chapter3 Coverage Results" MODIFIED="1480059100787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_science_from_scratch" />
     <SUITE FILE_PATH="coverage/Startup$data_split.coverage" NAME="data_split Coverage Results" MODIFIED="1480498917494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_science_from_scratch/chapter10" />
+    <SUITE FILE_PATH="coverage/Startup$k_nearest_neighbours.coverage" NAME="k_nearest_neighbours Coverage Results" MODIFIED="1480582253705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors" />
     <SUITE FILE_PATH="coverage/MiniCourseOnPython$bar_charts.coverage" NAME="bar_charts Coverage Results" MODIFIED="1480059599545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_science_from_scratch/chapter3" />
     <SUITE FILE_PATH="coverage/MiniCourseOnPython$chapter2.coverage" NAME="chapter2 Coverage Results" MODIFIED="1480045549504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_science_from_scratch" />
   </component>
@@ -86,12 +87,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_split.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data_split.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_science_from_scratch/chapter10/data_split.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="k_nearest_neighbours.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/k_nearest_neighbours.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_science_from_scratch/util/distance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="n_dimensionality.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/n_dimensionality.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +163,9 @@
         <option value="$PROJECT_DIR$/data_science_from_scratch/chapter3.py" />
         <option value="$PROJECT_DIR$/data_science_from_scratch/chapter3/bar_charts.py" />
         <option value="$PROJECT_DIR$/data_science_from_scratch/chapter10/data_split.py" />
+        <option value="$PROJECT_DIR$/data_science_from_scratch/util/distance.py" />
+        <option value="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/k_nearest_neighbours.py" />
+        <option value="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/n_dimensionality.py" />
       </list>
     </option>
   </component>
@@ -223,7 +261,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter10" />
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Startup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Startup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_science_from_scratch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter12_nearest_neibors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,43 +310,7 @@
       <recent name="D:\workspace\MachineLearning\Practices\MiniCourseOnPython\courses\day_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_split">
-    <configuration default="false" name="numpy_usage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/courses/day_2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MiniCourseOnPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/courses/day_2/numpy_usage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="chapter2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_science_from_scratch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MiniCourseOnPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science_from_scratch/chapter2/chapter2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.n_dimensionality">
     <configuration default="false" name="chapter3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,6 +361,42 @@
       <module name="MiniCourseOnPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science_from_scratch/chapter10/data_split.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="k_nearest_neighbours" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MiniCourseOnPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/k_nearest_neighbours.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="n_dimensionality" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MiniCourseOnPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/n_dimensionality.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -554,19 +610,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.numpy_usage" />
-      <item index="1" class="java.lang.String" itemvalue="Python.chapter2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.chapter3" />
-      <item index="3" class="java.lang.String" itemvalue="Python.bar_charts" />
-      <item index="4" class="java.lang.String" itemvalue="Python.data_split" />
+      <item index="0" class="java.lang.String" itemvalue="Python.chapter3" />
+      <item index="1" class="java.lang.String" itemvalue="Python.bar_charts" />
+      <item index="2" class="java.lang.String" itemvalue="Python.data_split" />
+      <item index="3" class="java.lang.String" itemvalue="Python.k_nearest_neighbours" />
+      <item index="4" class="java.lang.String" itemvalue="Python.n_dimensionality" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.data_split" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bar_charts" />
-        <item index="2" class="java.lang.String" itemvalue="Python.chapter3" />
-        <item index="3" class="java.lang.String" itemvalue="Python.chapter2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.numpy_usage" />
+        <item index="0" class="java.lang.String" itemvalue="Python.n_dimensionality" />
+        <item index="1" class="java.lang.String" itemvalue="Python.k_nearest_neighbours" />
+        <item index="2" class="java.lang.String" itemvalue="Python.data_split" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bar_charts" />
+        <item index="4" class="java.lang.String" itemvalue="Python.chapter3" />
       </list>
     </recent_temporary>
   </component>
@@ -588,7 +644,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1922" height="954" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22945571" sideWeight="0.4961665" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -596,11 +652,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24350649" sideWeight="0.49789253" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37893462" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964718" sideWeight="0.50383353" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.49789253" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808718" sideWeight="0.49789253" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37046006" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37046006" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -848,6 +904,34 @@
         <state relative-caret-position="440">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_science_from_scratch/util/distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/k_nearest_neighbours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_science_from_scratch/chapter12_nearest_neibors/n_dimensionality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
